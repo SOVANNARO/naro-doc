@@ -5,6 +5,31 @@ authors: sovannaro
 tags: [mongodb]
 ---
 
+<head>
+  <meta name="keywords" content="MongoDB, database relationships, one-to-one, one-to-many, many-to-many, NoSQL, data modeling, web development, coding, tutorials, database design, software engineering, programming" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="author" content="sovannaro" />
+  <meta name="description" content="Learn how to handle different types of relationships in MongoDB, including one-to-one, one-to-many, and many-to-many relationships. A comprehensive guide for MongoDB developers." />
+  <link rel="preconnect" href="https://www.google.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script type="application/ld+json">
+    {JSON.stringify({
+      '@context': 'https://schema.org/',
+      '@type': 'WebPage',
+      name: 'Understanding Relationships in MongoDB',
+      url: 'https://naro-doc.vercel.app/blog/understanding-relationships-in-mongodb',
+      description: 'A guide to understanding and implementing relationships in MongoDB, covering one-to-one, one-to-many, and many-to-many types.',
+      author: {
+        '@type': 'Person',
+        name: 'sovannaro',
+        url: 'https://naro-doc.vercel.app/',
+      },
+      logo: 'https://avatars.githubusercontent.com/u/41016168?v=4',
+    })}
+  </script>
+</head>
+
 ## Introduction
 MongoDB is a popular NoSQL database known for its flexibility and scalability. Unlike traditional relational databases, MongoDB uses a document-oriented model, which provides developers with a different approach to managing relationships between data.<!--truncate--> Understanding these relationships—One-to-One, One-to-Many, and Many-to-Many—is crucial for designing efficient databases. This article will guide you through these relationship types, their implementation, and best practices for each scenario.
 

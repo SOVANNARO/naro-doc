@@ -65,6 +65,11 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      {name: 'keywords', content: 'web development, front-end, back-end, full-stack development, Angular, Vue.js, React, Spring Boot, Laravel, Node.js, DevOps, Docker, Kubernetes, SQL, MongoDB, PostgreSQL, JavaScript, PHP, API development, server-side, cloud computing, CI/CD, software engineering, coding tutorials, programming resources, developer learning'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'author', content: 'Naro Doc'},
+    ],
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
