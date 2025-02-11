@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <Head>
         <meta name="google-site-verification" content="Cz26yDpb24keq5f9kHKZXdKVd8eI4rmvm8MOfwFrAsQ" />
